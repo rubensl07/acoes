@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 16px;
+}
+.item{
+    height: 150px;
+    width: 80%;
+    background-image: linear-gradient(to right, black , #515151);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+    margin: 10px;
+    border-radius: 50px;
+}
+.texto{
+    color: orange;
+    font-size: 64px;
+    text-transform: uppercase;
+
+}
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.changeColor{
+    background-color: #f700ff;
+}
+
+.changeShape{
+    border-radius: 100%;
+}
+.fadeOut{
+    opacity: 0;
+}
+.grow{
+    height: 140px;
+    width: 140px;
+}
+.shrink{
+    height: 60px;
+    width: 60px;
+}
+.spin{
+    transform: rotate(360deg);
+}
+.mudarPlanoFundo{
+    background-image: url(gray-wolf-closeup_3x4.avif);
+    background-size: cover;
+    background-position: center;
+}
+.brilhar{
+    box-shadow: 1px 1px 20px white;
+}
